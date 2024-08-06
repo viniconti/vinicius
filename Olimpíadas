@@ -48,6 +48,9 @@
             align-items: center;
             margin-top: 20px;
         }
+        .tr{
+            border: solid black 1px;
+        }
     </style>
 </head>
 
@@ -63,46 +66,46 @@
     <table>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>País</th>
-                <th>Ouro</th>
-                <th>Prata</th>
-                <th>Bronze</th>
-                <th>Total</th>
+                <th class="tr">Posição</th>
+                <th class="tr">País</th>
+                <th class="tr">Ouro</th>
+                <th class="tr">Prata</th>
+                <th class="tr">Bronze</th>
+                <th class="tr">Total</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
-                <td>USA</td>
-                <td>39</td>
-                <td>41</td>
-                <td>33</td>
-                <td>113</td>
+                <td class="tr">1</td>
+                <td class="tr">USA</td>
+                <td class="tr">39</td>
+                <td class="tr">41</td>
+                <td class="tr">33</td>
+                <td class="tr">113</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>China</td>
-                <td>38</td>
-                <td>32</td>
-                <td>18</td>
-                <td>88</td>
+                <td class="tr">2</td>
+                <td class="tr">China</td>
+                <td class="tr">38</td>
+                <td class="tr">32</td>
+                <td class="tr">18</td>
+                <td class="tr">88</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>Japão</td>
-                <td>27</td>
-                <td>14</td>
-                <td>17</td>
-                <td>58</td>
+                <td class="tr">3</td>
+                <td class="tr">Japão</td>
+                <td class="tr">27</td>
+                <td class="tr">14</td>
+                <td class="tr">17</td>
+                <td class="tr">58</td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>Brasil</td>
-                <td>7</td>
-                <td>6</td>
-                <td>8</td>
-                <td>21</td>
+                <td class="tr">4</td>
+                <td class="tr">Brasil</td>
+                <td class="tr">7</td>
+                <td class="tr">6</td>
+                <td class="tr">8</td>
+                <td class="tr">21</td>
             </tr>
         </tbody>
     </table>
