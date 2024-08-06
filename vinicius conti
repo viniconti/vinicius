@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <style>
+        .logo {
+            height: 150px;
+        }
+
+        .img {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        .top {
+            width: 100%;
+            display: flex;
+            padding: 10px 5px;
+            align-items: center;
+            justify-content: space-around;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            justify-content: center;
+            background-image: url(https://lncimg.lance.com.br/uploads/2024/04/AFP__20240407__34NV4UK__v2__HighRes__FranceRwandaGenocideAnniversary-scaled-aspect-ratio-512-320.jpg);
+            background-position: center;
+        }
+
+        .linklist {
+            display: flex;
+        }
+
+        .linklist li {
+            margin: 0 10px;
+            list-style: none;
+            color: white;
+        }
+
+        .tabela {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header class="top">
+
+            <div class="img"> <img src="https://olympics.com/_pr/topic-assets/paris-2024/emblem-oly.svg" alt="logo"
+                    class="logo">
+            </div>
+    </div>
+    <div class="tabela">
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>País</th>
+                <th>Ouro</th>
+                <th>Prata</th>
+                <th>Bronze</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>USA</td>
+                <td>39</td>
+                <td>41</td>
+                <td>33</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>China</td>
+                <td>38</td>
+                <td>32</td>
+                <td>18</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Japão</td>
+                <td>27</td>
+                <td>14</td>
+                <td>17</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Brasil</td>
+                <td>7</td>
+                <td>6</td>
+                <td>8</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+    </header>
+</div>
+</body>
+
+</html>
