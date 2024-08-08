@@ -51,11 +51,45 @@
         }
         .tr{
             border: solid black 1px;
+            padding: 10px;
+        }
+        .usa{
+            background-image: url('https://gstatic.olympics.com/s1/f_auto/static/light/flag/paris-2024/olympic/3x2/USA.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 30px 20px;
+            padding-left: 40px;
+        }
+        .chn{
+            background-image: url('https://gstatic.olympics.com/s1/f_auto/static/light/flag/paris-2024/olympic/3x2/CHN.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 30px 20px;
+            padding-left: 40px;
+        }
+        .aus{
+            background-image: url('https://gstatic.olympics.com/s1/f_auto/static/light/flag/paris-2024/olympic/3x2/AUS.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 30px 20px;
+            padding-left: 40px;
+        }.br{
+            background-image: url('https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/BRA.png');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 30px 20px;
+            padding-left: 40px;
+        }
+        .res{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
         }
     </style>
 </head>
 
-<body>
+<body class="background">
     <div>
         <header class="top">
 
@@ -63,12 +97,14 @@
                     class="logo">
             </div>
     </div>
+    <h1 class="res">Resultados das Olimíadas 2024</h1>
     <div class="tabela">
     <table>
         <thead>
             <tr>
                 <th class="tr">Posição</th>
-                <th class="tr">País</th>
+                <th class="tr">#
+                    equipes/CONs</th>
                 <th class="tr">Ouro</th>
                 <th class="tr">Prata</th>
                 <th class="tr">Bronze</th>
@@ -78,7 +114,7 @@
         <tbody>
             <tr>
                 <td class="tr">1°</td>
-                <td class="tr">USA</td>
+                <td class="tr usa">USA</td>
                 <td class="tr">27</td>
                 <td class="tr">35</td>
                 <td class="tr">33</td>
@@ -86,7 +122,7 @@
             </tr>
             <tr>
                 <td class="tr">2°</td>
-                <td class="tr">China</td>
+                <td class="tr chn">China</td>
                 <td class="tr">26</td>
                 <td class="tr">24</td>
                 <td class="tr">17</td>
@@ -94,7 +130,7 @@
             </tr>
             <tr>
                 <td class="tr">3°</td>
-                <td class="tr">Austrália</td>
+                <td class="tr aus">Austrália</td>
                 <td class="tr">18</td>
                 <td class="tr">14</td>
                 <td class="tr">11</td>
@@ -102,7 +138,7 @@
             </tr>
             <tr>
                 <td class="tr">4°</td>
-                <td class="tr">Brasil</td>
+                <td class="tr br">Brasil</td>
                 <td class="tr">2</td>
                 <td class="tr">5</td>
                 <td class="tr">7</td>
@@ -111,6 +147,8 @@
         </tbody>
     </table>
     </header>
+</div>
+<div>
 </div>
 </body>
 
